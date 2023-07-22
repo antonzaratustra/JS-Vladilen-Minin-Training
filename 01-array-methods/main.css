@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(32, 31, 31);
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.wrapper {
+    padding-top: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.container {
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(33, 28, 51);
+    border: 1px solid whitesmoke;
+    margin-bottom: 50px;
+}
+.date_contaner {
+    padding-bottom: 10px;
+    
+}
+
+.date_string {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.button_container {
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.full {
+    background-color: blue;
+}
+
+.date {
+    background-color: green;
+}
+
+.time {
+    background-color: red;
+}
